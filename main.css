@@ -16,6 +16,7 @@ aside {
     position: fixed;
     top: 0;
     left: 0;
+    transition: all .3s;
 }
     
 main {
@@ -36,4 +37,20 @@ button {
 
 .extend {
     width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+    
+    main {
+        width: 100%;
+    }
+
+    .closed {
+        left: -100%;
+    }
+
+    aside {
+        width: 100%;
+    }
+    
 }
