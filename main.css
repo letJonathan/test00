@@ -1,0 +1,39 @@
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+aside, main {
+    height: 100vh;
+}
+
+aside {
+    width: 20%;
+    background-color: green;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+    
+main {
+    width: 80%;
+    margin-left: auto;
+    background-color: rebeccapurple;
+}
+
+button {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.closed {
+    left: -20%;
+}
+
+.extend {
+    width: 100%;
+}
